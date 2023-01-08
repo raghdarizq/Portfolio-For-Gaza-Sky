@@ -6,6 +6,258 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Jost:wght@300&family=Raleway&display=swap");
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+/*
+#47E1AE
+
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+:root {
+  --blueColor: #47aee1;
+  --mianColor: #47e1ae;
+  --spColor: #a3f0d7;
+}
+body {
+  background-color: #f6f3ee;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+header .log span {
+  background-color: var(--blueColor, #47aee1);
+  color: white;
+  border-radius: 10px;
+  padding: 1px;
+}
+li {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+a {
+  color: black;
+  text-decoration-line: none;
+}
+.bth {
+  background-color: var(--blueColor, #47aee1);
+  color: white;
+  font-weight: 300;
+  border-radius: 15px;
+  padding: 15px;
+}
+.hero-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.who-am-I {
+  font-family: "Jost", sans-serif;
+  color: black;
+}
+.hero-sec-words {
+  width: 40%;
+  font-family: "Caveat Brush", cursive;
+}
+.hero-sec-words h1 {
+  font-family: "Caveat", cursive;
+}
+.img-con {
+  width: 30%;
+}
+.mark {
+  color: var(--blueColor, #47aee1);
+}
+.hero-sec div p {
+  width: 30rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.hero-sec div img {
+  width: 100%;
+  height: auto;
+}
+.wordheroimg {
+  display: none;
+}
+.center {
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+.My-Skilis {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-skills-container {
+  width: 60%;
+}
+.img-skills {
+  width: 80%;
+  height: auto;
+}
+.My-skillis-word {
+  width: 35%;
+}
+.Progress-Bar {
+  background-color: var(--spColor, #a3f0d7);
+}
+.Progress-Bar-child {
+  background-color: var(--mianColor, #47e1ae);
+}
+.Cards {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+.Card {
+  width: 20%;
+  background-color: rgb(246 246 246);
+  border-radius: 8px;
+  box-shadow: 8px 8px 9px 0px grey;
+  text-align: center;
+  padding: 15px;
+  font-family: "Caveat", cursive;
+  min-height: 23rem;
+}
+.Card h1 {
+  color: var(--blueColor, #47aee1);
+  font-family: "Caveat", cursive;
+}
+.Card img {
+  width: 80%;
+  height: 18rem;
+}
+.icon {
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.dth1 {
+  font-family: "Caveat";
+  color: var(--blueColor, #47aee1);
+  font-weight: bold;
+}
+dl dd {
+  text-align: left;
+}
+.social {
+  width: 40%;
+}
+.social .social-name {
+  font-family: "Caveat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.social p {
+  display: inline-block;
+  color: grey;
+}
+form div input,
+textarea {
+  border-radius: 15px;
+  padding: 10px;
+}
+.form {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div label {
+  width: 70%;
+  display: block;
+}
+form div input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 2px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-footer {
+  width: 20px;
+}
+@media (max-width: 1017px) {
+  ul {
+    display: none;
+  }
+  .hero-sec,
+  .My-Skilis,
+  .Cards {
+    flex-direction: column;
+  }
+  .hero-sec-words {
+    width: 100%;
+    text-align: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  textarea {
+    width: 100%;
+  }
+  .img-con,
+  .Card {
+    width: 100%;
+  }
+  .Card {
+    margin-top: 15px;
+    width: 70%;
+  }
+  .who-am-I {
+    display: none;
+  }
+  .wordheroimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bth {
+    display: inline-block;
+    margin: 15px;
+  }
+  .My-skillis-word {
+    width: 70%;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+
+    </style>
     <title>Portfolio</title>
   </head>
   <body>
